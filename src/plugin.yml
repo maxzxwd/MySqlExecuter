@@ -1,0 +1,11 @@
+name: MySqlExecuter
+authors: [maxzxwd]
+
+main: com.maxzxwd.mysqlexecuter.MySqlExecuterPlugin
+version: 1.00
+
+commands:
+  mysql:
+    description: Execute MySQL query
+    permission: mysql
+    usage: /<command> [query]
